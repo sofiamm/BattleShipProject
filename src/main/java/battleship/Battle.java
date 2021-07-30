@@ -61,9 +61,9 @@ public class Battle {
  
     tablero[fila][col]='*';
     
-       for (int i=0; i<9; i++)
+       for (int i=0; i<6; i++)
          {
-             for (int j=0; j<9; j++)
+             for (int j=0; j<6; j++)
              {
                  System.out.print(tablero[i][j]);
                  System.out.print(" ");
